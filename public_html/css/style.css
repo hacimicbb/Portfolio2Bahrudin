@@ -1,9 +1,8 @@
-body {
+ body {
     background-color: lightblue; 
-    background-image: url("http://photos.imageevent.com/afap/sports/basketball/nbastars//Blake%20Griffin%20-1.jpg")
-        
+    background-image: url("http://th08.deviantart.net/fs71/PRE/f/2011/241/8/6/frozen_lightning_by_zy0rg-d488peh.png");
 }
- 
+ /* This image is the background for my index section... */
 a {
     color: forestgreen;
 }
@@ -12,21 +11,80 @@ a {
     text-decoration: none;
     
 }
-    
+ /* This is the current link that your on*/
 
 .uppercase {
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 24px;
+    color:white;
+    text-align: center;
+    border: 14px solid white;
 } 
-    
+ /* This is the header for about me */
 img {
     width: 400px;
     height: auto;
 }
-
-h1 {
-    border-top: 2px dashed black;
-}
-
+  
+  aricle h1{
+      color:white
+  }
+  
+  article h2{
+      color:white;
+      font-size: 40px;
+  }
+  
+  article p{
+      color:white;
+      font-size: 20px;
+      padding: 0px;
+  }
+  /* This is the white font color for my index page*/
+  
+  #tech {
+      background-image: url(http://www.chicagocomputerclasses.com/wp-content/uploads/2014/04/html5-css31.png); 
+      background-size: cover;
+  }
+  /* This is my background image for my technology page */
+  #tech article h1 {
+      color:black
+  }
+  #tech article p{
+      color:black;
+      margain-right: 400px;
+  }
+ 
+  #project {
+      background-image:  url(http://2.bp.blogspot.com/_NeET6yaoz_E/TKUlXwuP_KI/AAAAAAAAAEo/iKRxIeT7zZc/s1600/0915wallpaperys-5_1600.png);
+    }
+    
+    #project article {
+        img: url(http://skf63.com/images/lightning1_gif640x480.gif)
+    }
+    
+    .classify {
+        text-align: center;
+    }
+    
+    #index {
+        backgtound-image: url(http://th08.deviantart.net/fs71/PRE/f/2011/241/8/6/frozen_lightning_by_zy0rg-d488peh.png);
+        background-size: cover;
+    }
+  /* This is the background image for my about page */
+    .style {
+        text-align: center;
+        border: 14px solid black;
+    }
+    
+    .main {
+        text-align: center;
+    }
+    
+    #tech article p2 {
+        margain-right: 200px;
+    }  
+    
+  
 
  
